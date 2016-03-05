@@ -1,0 +1,72 @@
+*{
+    margin : 0;
+    padding : 0;
+    overflow:hidden;
+}
+
+body {
+    font-size:12px;  
+    font-family:"宋体";
+    background : #a2d962 url(../images/login/login_0.png) repeat-x;
+}
+
+#main{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    margin : -166px 0 0 -242px;
+    width : 521px;
+    height : 375px;
+    background-color : #f1f3cd;
+}
+
+#main .top{
+    position : relative;
+    width : 521px;
+    height : 375px;
+    background : url(../images/login/login_bg.png) no-repeat;
+}
+
+#main .title{
+    position: relative;
+    font-family: "微软雅黑";
+    font-size: 2.4em;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+#main .form{
+    position: relative;
+    font-family: "微软雅黑";
+    font-size: 1.4em;
+    padding-top: 35px;
+    padding-left: 150px;
+}
+
+#main .logoutForm table{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 1.4em;
+    padding-top: 35px;
+}
+
+#main .buttons{
+    position: relative;
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 100px;
+}
+
+#main .buttons table{
+    width: 100%;
+    text-align: center;
+}
+
+#main .message {
+    padding-left: 150px;
+    padding-top: 10px;
+    color: red;
+}
